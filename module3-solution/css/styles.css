@@ -34,6 +34,7 @@ body {
   background-color: #adcde1;
   text-align: center;
   font-size: 1.2em;
+  border: 0.5px solid black;
 }
 
 #nav-list a {
@@ -41,11 +42,18 @@ body {
   font-weight: bolder;
   color: #535363;
   font-size: 1.2em;
+  border: 0.5px solid black;
 }
 
 .nav-item:hover {
   color: green;
   background-color: #dcf7de;
+}
+
+.navbar-collapse.collapse.show {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
 }
 
 /** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
@@ -80,3 +88,16 @@ body {
   padding: 20px;
   background-color: #f8f8f8;
 }
+
+#navbarTogglerDemo01 ul {
+  width: 100%;
+}
+
+/* Media queries */
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+      width: 100%;
+  }
+}
+
