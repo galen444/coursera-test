@@ -74,3 +74,9 @@ body {
   background-color: #aeaeae;
   margin-bottom: 30px;
 }
+
+#main-section {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
