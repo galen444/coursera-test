@@ -39,13 +39,13 @@ body {
 #nav-list a {
   text-align: center;
   font-weight: bolder;
-  color: red;
+  color: #535363;
   font-size: 1.2em;
 }
 
 .nav-item:hover {
   color: green;
-  background-color: #4e32da;
+  background-color: #dcf7de;
 }
 
 /** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
