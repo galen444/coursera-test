@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #121212;
+  background-color: #e2e2e2;
+}
+
+/** Header CSS Rules **/
+
+.navbar {
+  background-color: grey !important;
+  border-radius: 0;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  color: #393838;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+#nav-list {
+  background-color: #adcde1;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#nav-list a {
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+  font-size: 1.2em;
+}
+
+.nav-item:hover {
+  color: green;
+  background-color: #4e32da;
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** Main Page CSS Rules **/
+
+#main-content {
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#main-content h3 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  width: 100%;
+  padding: 20px;
+  background-color: #aeaeae;
+  margin-bottom: 30px;
+}

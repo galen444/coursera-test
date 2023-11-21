@@ -80,6 +80,11 @@ h1 {
   font-size: 125%;
 }
 
+.title4 {
+  background-color: #d1c78d;
+  font-size: 125%;
+}
+
 /* Large devices */
 @media (min-width: 992px) {
   .col-lg-4 {
